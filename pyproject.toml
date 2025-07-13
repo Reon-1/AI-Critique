@@ -1,0 +1,13 @@
+[project]
+name = "neww"
+version = "0.1.0"
+description = "AI critique using gemini"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-genai>=1.25.0",
+    "google-generativeai>=0.8.5",
+    "pypdf2>=3.0.1",
+    "python-dotenv>=1.1.1",
+    "streamlit>=1.46.1",
+]
