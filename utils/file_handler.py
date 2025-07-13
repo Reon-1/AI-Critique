@@ -14,3 +14,4 @@ def extract_text_from_file(uploaded_file):
     if uploaded_file.type == 'application/pdf': # if it's pdf
         return extract_text_from_pdf(io.BytesIO(uploaded_file.read())) # type conversion 
     return uploaded_file.read().decode('utf-8') # if it's txt
+    return extract_text_from_pdf(io.BytesIO(uploaded_file.read()))
